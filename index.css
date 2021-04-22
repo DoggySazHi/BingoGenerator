@@ -1,3 +1,18 @@
+html {
+    /* Too lazy for using custom fonts. */
+    font-family: Verdana, sans-serif;
+    font-size: 3vh;
+}
+
 .board {
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.box {
+    background-color: red;
+    text-align: center;
+    vertical-align: center;
+
+    width: 100%;
 }

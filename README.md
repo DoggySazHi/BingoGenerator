@@ -3,7 +3,7 @@ A webpage that will generate "Bingo" boards based on given input.
 This is currently based upon the Ptable&reg; Disord server's responses.
 ## What is this?
 ...Yes. It generates grids based on strings.
-A Node.js file is included if you want to run this locally, however it is [also hosted on GitHub as well.](https://doggysazhi.github.io/BingoGenerator)
+A Node.js file is included if you want to run this locally, however it is [also hosted on GitHub as well.](https://doggysazhi.github.io/BingoGenerator/)
 
 ## Contribution
 Just send a pull request. I'll most likely merge it as long as it isn't anything profane.

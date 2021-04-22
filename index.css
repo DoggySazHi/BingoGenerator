@@ -34,6 +34,10 @@ html {
     margin: 5px;
 }
 
+.box.click-toggle {
+    background-color: rgb(81, 234, 155);
+}
+
 .center {
     display: flex;
 
@@ -48,4 +52,8 @@ html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+hr {
+    opacity: 0;
 }

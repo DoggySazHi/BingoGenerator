@@ -33,6 +33,14 @@ async function renderBoxes() {
 
         let textBox = document.createElement("span");
         item.appendChild(textBox);
+        item.addEventListener("click", (e) => {
+            e.preventDefault();
+            e.target.classList.toggle("click-toggle");
+        })
+        textBox.addEventListener("click", (e) => {
+            e.preventDefault();
+            e.target.parentElement.classList.toggle("click-toggle");
+        })
 
         container.appendChild(item);
     }

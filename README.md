@@ -10,9 +10,10 @@ Just send a pull request. I'll most likely merge it as long as it isn't anything
 
 ## License
 Honestly, I don't care whoever uses this, since it's just a personal project. However, if you really care, only the code for the website is under the [MIT](https://choosealicense.com/licenses/mit/) license.
-The strings for random messages is free domain.  
+The strings for random messages is public domain.
+
 *Ptable&reg; is a registered trademark of Michael Dayah (support@ptable.com)*  
-*Please don't sue me*
+*Please don't sue me~*
 
 ```
 MIT License

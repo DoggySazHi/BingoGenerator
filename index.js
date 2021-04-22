@@ -14,6 +14,7 @@ async function onInit() {
     document.addEventListener("DOMContentLoaded", async (e) => {
         await renderBoxes();
     });
+    console.log("Initialized main script!");
 }
 
 async function fetchData() {
@@ -29,6 +30,10 @@ async function renderBoxes() {
     for (let i = 0; i < WIDTH * HEIGHT; ++i) {
         let item = document.createElement("div");
         item.classList.add("box");
+
+        let textBox = document.createElement("span");
+        item.appendChild(textBox);
+
         container.appendChild(item);
     }
 
@@ -42,7 +47,7 @@ async function fillBoxes(container) {
     let phrases = data.phrases;
     let usedPhrases = [];
     for (let i = 0; i < children.length; ++i) {
-        let child = children[i];
+        let child = children[i].firstChild;
         if (i === free) {
             child.innerHTML = "FREE SPACE";
             continue;
@@ -52,7 +57,8 @@ async function fillBoxes(container) {
         do {
             // Make sure we don't reuse the same phrase in the table.
             rngIndex = Math.floor(Math.random() * phrases.length);
-        } while (usedPhrases.includes(rngIndex));
+        } while (usedPhrases.includes(rngIndex) && usedPhrases.length < phrases.length);
+
         // Save it.
         usedPhrases.push(rngIndex);
         child.innerHTML = phrases[rngIndex];

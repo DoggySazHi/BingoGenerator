@@ -1,5 +1,5 @@
 {
-  "version": "1.0.3",
+  "version": "1.0.4",
   "phrases": [
     "\"Why does this server exist\"",
     ",ui spam in #memes",
@@ -43,6 +43,8 @@
     "Someone calls fumos \"scary dolls\"",
     "Intentionally trivial question (e.g. 1+1, what's H2O)",
     "Asking how to synthesize a drug",
-    "Juan talks about his arse"
+    "Juan talks about his arse",
+    "Mist says something",
+    "Bovine says something"
   ]
 }
